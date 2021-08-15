@@ -7,20 +7,177 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1587085826B89CC50082DB8F /* PrefPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1587085726B89CC50082DB8F /* PrefPane.tiff */; };
+		151BCD9926C8485900F1EA89 /* KeyPopper Catcher.app in Copy Catcher */ = {isa = PBXBuildFile; fileRef = 15E014AF26C7749100A432BD /* KeyPopper Catcher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		151BCD9E26C853E800F1EA89 /* PrefPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 151BCD9D26C853E700F1EA89 /* PrefPane.tiff */; };
+		151BCDAA26C86FBF00F1EA89 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151BCDA926C86FBF00F1EA89 /* main.swift */; };
+		151BCDAF26C86FFD00F1EA89 /* PoppingServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151BCDAE26C86FFD00F1EA89 /* PoppingServiceDelegate.swift */; };
+		151BCDB126C8700800F1EA89 /* PoppingServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151BCDB026C8700800F1EA89 /* PoppingServiceProtocol.swift */; };
+		151BCDB326C8701100F1EA89 /* PoppingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151BCDB226C8701100F1EA89 /* PoppingService.swift */; };
+		151BCDB826C870CD00F1EA89 /* PoppingService in Copy PoppingService */ = {isa = PBXBuildFile; fileRef = 151BCDA726C86FBF00F1EA89 /* PoppingService */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		151BCDC326C874DB00F1EA89 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151BCDC026C874DB00F1EA89 /* AVKit.framework */; };
+		151BCDC426C874DB00F1EA89 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151BCDC126C874DB00F1EA89 /* AVFAudio.framework */; };
+		151BCDC526C874DB00F1EA89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151BCDC226C874DB00F1EA89 /* AVFoundation.framework */; };
+		151BCDC726C8765600F1EA89 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151BCDC626C8765600F1EA89 /* AppKit.framework */; };
+		151BCDC826C8771E00F1EA89 /* PoppingServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151BCDB026C8700800F1EA89 /* PoppingServiceProtocol.swift */; };
+		151BCDCC26C87E0200F1EA89 /* pop.mp3 in Copy Sounds */ = {isa = PBXBuildFile; fileRef = 151BCDB926C8711000F1EA89 /* pop.mp3 */; };
+		151BCDCD26C87E0200F1EA89 /* moo.mp3 in Copy Sounds */ = {isa = PBXBuildFile; fileRef = 151BCDBC26C873B600F1EA89 /* moo.mp3 */; };
+		151BCDCE26C87E0200F1EA89 /* frog.mp3 in Copy Sounds */ = {isa = PBXBuildFile; fileRef = 151BCDBE26C874C900F1EA89 /* frog.mp3 */; };
+		1525B06A26BA208000A504EB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1525B06926BA208000A504EB /* main.swift */; };
+		1525B06F26BA21FF00A504EB /* KettleCornServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1525B06E26BA21FF00A504EB /* KettleCornServiceDelegate.swift */; };
+		1525B07126BA227700A504EB /* KettleCornServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1525B07026BA227700A504EB /* KettleCornServiceProtocol.swift */; };
+		1525B07326BA22AD00A504EB /* KettleCornService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1525B07226BA22AD00A504EB /* KettleCornService.swift */; };
+		1525B07A26BA27E000A504EB /* KettleCornService in Copy Services to Bundle */ = {isa = PBXBuildFile; fileRef = 1525B06726BA208000A504EB /* KettleCornService */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		154214B626BF3702007E4A08 /* KeyPopperPreferencesTerms.searchTerms in Resources */ = {isa = PBXBuildFile; fileRef = 154214B526BF3702007E4A08 /* KeyPopperPreferencesTerms.searchTerms */; };
+		1542150B26C05E02007E4A08 /* PoppingSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1542150A26C05E02007E4A08 /* PoppingSounds.swift */; };
+		1542150C26C05E02007E4A08 /* PoppingSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1542150A26C05E02007E4A08 /* PoppingSounds.swift */; };
+		1542150E26C068FF007E4A08 /* KettleCornServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1525B07026BA227700A504EB /* KettleCornServiceProtocol.swift */; };
 		1587085B26B89CC50082DB8F /* KeyPopper.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1587085926B89CC50082DB8F /* KeyPopper.xib */; };
 		1587086226B8A04B0082DB8F /* KeyPopperPrefPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587086126B8A04B0082DB8F /* KeyPopperPrefPane.swift */; };
+		15E014B226C7749100A432BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E014B126C7749100A432BD /* AppDelegate.swift */; };
+		15E014B626C7749A00A432BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E014B526C7749A00A432BD /* Assets.xcassets */; };
+		15E014B926C7749A00A432BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E014B726C7749A00A432BD /* Main.storyboard */; };
+		15E014BF26C77BAC00A432BD /* KettleCornServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1525B07026BA227700A504EB /* KettleCornServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		151BCD9A26C8485F00F1EA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1587083126B89C720082DB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E014AE26C7749100A432BD;
+			remoteInfo = "KeyPopper Catcher";
+		};
+		151BCDB526C870BB00F1EA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1587083126B89C720082DB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 151BCDA626C86FBF00F1EA89;
+			remoteInfo = PoppingService;
+		};
+		1525B07626BA270600A504EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1587083126B89C720082DB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1525B06626BA208000A504EB;
+			remoteInfo = KettleCornService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		151BCD9826C8484200F1EA89 /* Copy Catcher */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 12;
+			files = (
+				151BCD9926C8485900F1EA89 /* KeyPopper Catcher.app in Copy Catcher */,
+			);
+			name = "Copy Catcher";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151BCDB726C870C600F1EA89 /* Copy PoppingService */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 15;
+			files = (
+				151BCDB826C870CD00F1EA89 /* PoppingService in Copy PoppingService */,
+			);
+			name = "Copy PoppingService";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151BCDCB26C87DE900F1EA89 /* Copy Sounds */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				151BCDCC26C87E0200F1EA89 /* pop.mp3 in Copy Sounds */,
+				151BCDCD26C87E0200F1EA89 /* moo.mp3 in Copy Sounds */,
+				151BCDCE26C87E0200F1EA89 /* frog.mp3 in Copy Sounds */,
+			);
+			name = "Copy Sounds";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1525B07926BA27B600A504EB /* Copy Services to Bundle */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				1525B07A26BA27E000A504EB /* KettleCornService in Copy Services to Bundle */,
+			);
+			name = "Copy Services to Bundle";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		151BCD9426C7846000F1EA89 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		151BCD9526C7846000F1EA89 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		151BCD9D26C853E700F1EA89 /* PrefPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = PrefPane.tiff; path = ../../../../../var/folders/zx/4cfp_v_x17ggn7g72zl77sk40000gn/T/632003889/PrefPane.tiff; sourceTree = "<group>"; };
+		151BCDA226C8566700F1EA89 /* KeyPopperCatcher.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KeyPopperCatcher.plist; sourceTree = "<group>"; };
+		151BCDA726C86FBF00F1EA89 /* PoppingService */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PoppingService; sourceTree = BUILT_PRODUCTS_DIR; };
+		151BCDA926C86FBF00F1EA89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		151BCDAE26C86FFD00F1EA89 /* PoppingServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppingServiceDelegate.swift; sourceTree = "<group>"; };
+		151BCDB026C8700800F1EA89 /* PoppingServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppingServiceProtocol.swift; sourceTree = "<group>"; };
+		151BCDB226C8701100F1EA89 /* PoppingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppingService.swift; sourceTree = "<group>"; };
+		151BCDB426C870A200F1EA89 /* PoppingService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PoppingService.entitlements; sourceTree = "<group>"; };
+		151BCDB926C8711000F1EA89 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		151BCDBC26C873B600F1EA89 /* moo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = moo.mp3; sourceTree = "<group>"; };
+		151BCDBE26C874C900F1EA89 /* frog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frog.mp3; sourceTree = "<group>"; };
+		151BCDC026C874DB00F1EA89 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		151BCDC126C874DB00F1EA89 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
+		151BCDC226C874DB00F1EA89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		151BCDC626C8765600F1EA89 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		151BCDC926C87BB900F1EA89 /* PoppingService.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PoppingService.plist; sourceTree = "<group>"; };
+		1525B06726BA208000A504EB /* KettleCornService */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KettleCornService; sourceTree = BUILT_PRODUCTS_DIR; };
+		1525B06926BA208000A504EB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1525B06E26BA21FF00A504EB /* KettleCornServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KettleCornServiceDelegate.swift; sourceTree = "<group>"; };
+		1525B07026BA227700A504EB /* KettleCornServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KettleCornServiceProtocol.swift; sourceTree = "<group>"; };
+		1525B07226BA22AD00A504EB /* KettleCornService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KettleCornService.swift; sourceTree = "<group>"; };
+		154214B526BF3702007E4A08 /* KeyPopperPreferencesTerms.searchTerms */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KeyPopperPreferencesTerms.searchTerms; sourceTree = "<group>"; };
+		1542150A26C05E02007E4A08 /* PoppingSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppingSounds.swift; sourceTree = "<group>"; };
+		1542150D26C06836007E4A08 /* KettleCornSerivce.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KettleCornSerivce.plist; sourceTree = "<group>"; };
+		1542150F26C0FB37007E4A08 /* KettleCornService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KettleCornService.entitlements; sourceTree = "<group>"; };
 		1587085126B89CC50082DB8F /* KeyPopper PrefPane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeyPopper PrefPane.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1587085726B89CC50082DB8F /* PrefPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = PrefPane.tiff; sourceTree = "<group>"; };
 		1587085A26B89CC50082DB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/KeyPopper.xib; sourceTree = "<group>"; };
 		1587085C26B89CC50082DB8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1587086126B8A04B0082DB8F /* KeyPopperPrefPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPopperPrefPane.swift; sourceTree = "<group>"; };
+		15E014AF26C7749100A432BD /* KeyPopper Catcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KeyPopper Catcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E014B126C7749100A432BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15E014B526C7749A00A432BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15E014B826C7749A00A432BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15E014BD26C7750100A432BD /* KeyPopper Catcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KeyPopper Catcher.entitlements"; sourceTree = "<group>"; };
+		15E014BE26C7784600A432BD /* KeyPopper-Catcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KeyPopper-Catcher-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		151BCD9326C7844A00F1EA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151BCDA426C86FBF00F1EA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151BCDC326C874DB00F1EA89 /* AVKit.framework in Frameworks */,
+				151BCDC726C8765600F1EA89 /* AppKit.framework in Frameworks */,
+				151BCDC426C874DB00F1EA89 /* AVFAudio.framework in Frameworks */,
+				151BCDC526C874DB00F1EA89 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1525B06426BA208000A504EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1587084E26B89CC50082DB8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -31,31 +188,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		151BCDA826C86FBF00F1EA89 /* PoppingService */ = {
+			isa = PBXGroup;
+			children = (
+				151BCDB426C870A200F1EA89 /* PoppingService.entitlements */,
+				151BCDA926C86FBF00F1EA89 /* main.swift */,
+				151BCDAE26C86FFD00F1EA89 /* PoppingServiceDelegate.swift */,
+				151BCDB026C8700800F1EA89 /* PoppingServiceProtocol.swift */,
+				151BCDB226C8701100F1EA89 /* PoppingService.swift */,
+				151BCDB926C8711000F1EA89 /* pop.mp3 */,
+				151BCDBC26C873B600F1EA89 /* moo.mp3 */,
+				151BCDBE26C874C900F1EA89 /* frog.mp3 */,
+				151BCDC926C87BB900F1EA89 /* PoppingService.plist */,
+			);
+			path = PoppingService;
+			sourceTree = "<group>";
+		};
+		1525B06826BA208000A504EB /* KettleCornService */ = {
+			isa = PBXGroup;
+			children = (
+				1542150F26C0FB37007E4A08 /* KettleCornService.entitlements */,
+				1542150D26C06836007E4A08 /* KettleCornSerivce.plist */,
+				1525B06926BA208000A504EB /* main.swift */,
+				1525B06E26BA21FF00A504EB /* KettleCornServiceDelegate.swift */,
+				1525B07026BA227700A504EB /* KettleCornServiceProtocol.swift */,
+				1525B07226BA22AD00A504EB /* KettleCornService.swift */,
+			);
+			path = KettleCornService;
+			sourceTree = "<group>";
+		};
 		1587083026B89C710082DB8F = {
 			isa = PBXGroup;
 			children = (
 				1587085226B89CC50082DB8F /* PrefPane */,
+				15E014B026C7749100A432BD /* KeyPopper Catcher */,
+				1525B06826BA208000A504EB /* KettleCornService */,
+				151BCDA826C86FBF00F1EA89 /* PoppingService */,
 				15F9C8D326B8BCC300BF23AA /* Products */,
+				15E014C026C77EF000A432BD /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		15F9C8D326B8BCC300BF23AA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1587085126B89CC50082DB8F /* KeyPopper PrefPane.prefPane */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		1587085226B89CC50082DB8F /* PrefPane */ = {
 			isa = PBXGroup;
 			children = (
 				1587086126B8A04B0082DB8F /* KeyPopperPrefPane.swift */,
-				1587085726B89CC50082DB8F /* PrefPane.tiff */,
+				1542150A26C05E02007E4A08 /* PoppingSounds.swift */,
+				151BCD9D26C853E700F1EA89 /* PrefPane.tiff */,
 				1587085926B89CC50082DB8F /* KeyPopper.xib */,
 				1587085C26B89CC50082DB8F /* Info.plist */,
+				154214B526BF3702007E4A08 /* KeyPopperPreferencesTerms.searchTerms */,
 			);
 			path = PrefPane;
+			sourceTree = "<group>";
+		};
+		15E014B026C7749100A432BD /* KeyPopper Catcher */ = {
+			isa = PBXGroup;
+			children = (
+				15E014BE26C7784600A432BD /* KeyPopper-Catcher-Info.plist */,
+				151BCDA226C8566700F1EA89 /* KeyPopperCatcher.plist */,
+				15E014BD26C7750100A432BD /* KeyPopper Catcher.entitlements */,
+				15E014B126C7749100A432BD /* AppDelegate.swift */,
+				15E014B526C7749A00A432BD /* Assets.xcassets */,
+				15E014B726C7749A00A432BD /* Main.storyboard */,
+			);
+			path = "KeyPopper Catcher";
+			sourceTree = "<group>";
+		};
+		15E014C026C77EF000A432BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				151BCDC626C8765600F1EA89 /* AppKit.framework */,
+				151BCDC126C874DB00F1EA89 /* AVFAudio.framework */,
+				151BCDC226C874DB00F1EA89 /* AVFoundation.framework */,
+				151BCDC026C874DB00F1EA89 /* AVKit.framework */,
+				151BCD9526C7846000F1EA89 /* CoreFoundation.framework */,
+				151BCD9426C7846000F1EA89 /* CoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15F9C8D326B8BCC300BF23AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1587085126B89CC50082DB8F /* KeyPopper PrefPane.prefPane */,
+				1525B06726BA208000A504EB /* KettleCornService */,
+				15E014AF26C7749100A432BD /* KeyPopper Catcher.app */,
+				151BCDA726C86FBF00F1EA89 /* PoppingService */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +292,38 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		151BCDA626C86FBF00F1EA89 /* PoppingService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151BCDAB26C86FBF00F1EA89 /* Build configuration list for PBXNativeTarget "PoppingService" */;
+			buildPhases = (
+				151BCDA326C86FBF00F1EA89 /* Sources */,
+				151BCDA426C86FBF00F1EA89 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoppingService;
+			productName = PoppingService;
+			productReference = 151BCDA726C86FBF00F1EA89 /* PoppingService */;
+			productType = "com.apple.product-type.tool";
+		};
+		1525B06626BA208000A504EB /* KettleCornService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1525B06B26BA208000A504EB /* Build configuration list for PBXNativeTarget "KettleCornService" */;
+			buildPhases = (
+				1525B06326BA208000A504EB /* Sources */,
+				1525B06426BA208000A504EB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KettleCornService;
+			productName = KettleCornService;
+			productReference = 1525B06726BA208000A504EB /* KettleCornService */;
+			productType = "com.apple.product-type.tool";
+		};
 		1587085026B89CC50082DB8F /* KeyPopper PrefPane */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1587085D26B89CC50082DB8F /* Build configuration list for PBXNativeTarget "KeyPopper PrefPane" */;
@@ -79,15 +332,39 @@
 				1587084D26B89CC50082DB8F /* Sources */,
 				1587084E26B89CC50082DB8F /* Frameworks */,
 				1587084F26B89CC50082DB8F /* Resources */,
+				1525B07926BA27B600A504EB /* Copy Services to Bundle */,
+				151BCD9826C8484200F1EA89 /* Copy Catcher */,
+				151BCDB726C870C600F1EA89 /* Copy PoppingService */,
+				151BCDCB26C87DE900F1EA89 /* Copy Sounds */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				151BCDB626C870BB00F1EA89 /* PBXTargetDependency */,
+				151BCD9B26C8485F00F1EA89 /* PBXTargetDependency */,
+				1525B07726BA270600A504EB /* PBXTargetDependency */,
 			);
 			name = "KeyPopper PrefPane";
 			productName = PrefPane;
 			productReference = 1587085126B89CC50082DB8F /* KeyPopper PrefPane.prefPane */;
 			productType = "com.apple.product-type.bundle";
+		};
+		15E014AE26C7749100A432BD /* KeyPopper Catcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E014BA26C7749A00A432BD /* Build configuration list for PBXNativeTarget "KeyPopper Catcher" */;
+			buildPhases = (
+				15E014AB26C7749100A432BD /* Sources */,
+				151BCD9326C7844A00F1EA89 /* Frameworks */,
+				15E014AD26C7749100A432BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeyPopper Catcher";
+			productName = "KeyPopper Catcher";
+			productReference = 15E014AF26C7749100A432BD /* KeyPopper Catcher.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,11 +373,21 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					151BCDA626C86FBF00F1EA89 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1525B06626BA208000A504EB = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					1587085026B89CC50082DB8F = {
 						CreatedOnToolsVersion = 13.0;
 						LastSwiftMigration = 1300;
+					};
+					15E014AE26C7749100A432BD = {
+						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
@@ -113,11 +400,13 @@
 				Base,
 			);
 			mainGroup = 1587083026B89C710082DB8F;
-			productRefGroup = 1587083B26B89C720082DB8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1587085026B89CC50082DB8F /* KeyPopper PrefPane */,
+				15E014AE26C7749100A432BD /* KeyPopper Catcher */,
+				1525B06626BA208000A504EB /* KettleCornService */,
+				151BCDA626C86FBF00F1EA89 /* PoppingService */,
 			);
 		};
 /* End PBXProject section */
@@ -127,23 +416,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154214B626BF3702007E4A08 /* KeyPopperPreferencesTerms.searchTerms in Resources */,
 				1587085B26B89CC50082DB8F /* KeyPopper.xib in Resources */,
-				1587085826B89CC50082DB8F /* PrefPane.tiff in Resources */,
+				151BCD9E26C853E800F1EA89 /* PrefPane.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E014AD26C7749100A432BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E014B626C7749A00A432BD /* Assets.xcassets in Resources */,
+				15E014B926C7749A00A432BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		151BCDA326C86FBF00F1EA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151BCDAF26C86FFD00F1EA89 /* PoppingServiceDelegate.swift in Sources */,
+				151BCDB326C8701100F1EA89 /* PoppingService.swift in Sources */,
+				151BCDB126C8700800F1EA89 /* PoppingServiceProtocol.swift in Sources */,
+				151BCDAA26C86FBF00F1EA89 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1525B06326BA208000A504EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1525B07126BA227700A504EB /* KettleCornServiceProtocol.swift in Sources */,
+				151BCDC826C8771E00F1EA89 /* PoppingServiceProtocol.swift in Sources */,
+				1542150C26C05E02007E4A08 /* PoppingSounds.swift in Sources */,
+				1525B06A26BA208000A504EB /* main.swift in Sources */,
+				1525B07326BA22AD00A504EB /* KettleCornService.swift in Sources */,
+				1525B06F26BA21FF00A504EB /* KettleCornServiceDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1587084D26B89CC50082DB8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1542150E26C068FF007E4A08 /* KettleCornServiceProtocol.swift in Sources */,
 				1587086226B8A04B0082DB8F /* KeyPopperPrefPane.swift in Sources */,
+				1542150B26C05E02007E4A08 /* PoppingSounds.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E014AB26C7749100A432BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E014BF26C77BAC00A432BD /* KettleCornServiceProtocol.swift in Sources */,
+				15E014B226C7749100A432BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		151BCD9B26C8485F00F1EA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E014AE26C7749100A432BD /* KeyPopper Catcher */;
+			targetProxy = 151BCD9A26C8485F00F1EA89 /* PBXContainerItemProxy */;
+		};
+		151BCDB626C870BB00F1EA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 151BCDA626C86FBF00F1EA89 /* PoppingService */;
+			targetProxy = 151BCDB526C870BB00F1EA89 /* PBXContainerItemProxy */;
+		};
+		1525B07726BA270600A504EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1525B06626BA208000A504EB /* KettleCornService */;
+			targetProxy = 1525B07626BA270600A504EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1587085926B89CC50082DB8F /* KeyPopper.xib */ = {
@@ -154,9 +506,81 @@
 			name = KeyPopper.xib;
 			sourceTree = "<group>";
 		};
+		15E014B726C7749A00A432BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E014B826C7749A00A432BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		151BCDAC26C86FBF00F1EA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PoppingService/PoppingService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.keypopper.PoppingService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		151BCDAD26C86FBF00F1EA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PoppingService/PoppingService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.keypopper.PoppingService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1525B06C26BA208000A504EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KettleCornService/KettleCornService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.keypopper.KettleCornService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1525B06D26BA208000A504EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KettleCornService/KettleCornService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.keypopper.KettleCornService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		1587084726B89C720082DB8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -208,7 +632,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -261,7 +685,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -289,6 +713,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.keypopper.PrefPane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -322,6 +747,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sh.linus.keypopper.PrefPane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -333,9 +759,115 @@
 			};
 			name = Release;
 		};
+		15E014BB26C7749A00A432BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KeyPopper Catcher/KeyPopper Catcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KeyPopper-Catcher-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "KeyPopper Catcher";
+				INFOPLIST_KEY_CFBundleName = "KeyPopper Catcher";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(SDKROOT)/usr/lib/swift",
+					"$(SDKROOT)/usr/lib/log",
+					"$(SDKROOT)/usr/lib/updaters",
+					"$(SDKROOT)/usr/lib/system/introspection",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.linus.keypopper.KeyPopper-Catcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15E014BC26C7749A00A432BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KeyPopper Catcher/KeyPopper Catcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KeyPopper-Catcher-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "KeyPopper Catcher";
+				INFOPLIST_KEY_CFBundleName = "KeyPopper Catcher";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(SDKROOT)/usr/lib/swift",
+					"$(SDKROOT)/usr/lib/log",
+					"$(SDKROOT)/usr/lib/updaters",
+					"$(SDKROOT)/usr/lib/system/introspection",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.linus.keypopper.KeyPopper-Catcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		151BCDAB26C86FBF00F1EA89 /* Build configuration list for PBXNativeTarget "PoppingService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151BCDAC26C86FBF00F1EA89 /* Debug */,
+				151BCDAD26C86FBF00F1EA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1525B06B26BA208000A504EB /* Build configuration list for PBXNativeTarget "KettleCornService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1525B06C26BA208000A504EB /* Debug */,
+				1525B06D26BA208000A504EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1587083426B89C720082DB8F /* Build configuration list for PBXProject "KeyPopper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -350,6 +882,15 @@
 			buildConfigurations = (
 				1587085E26B89CC50082DB8F /* Debug */,
 				1587085F26B89CC50082DB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E014BA26C7749A00A432BD /* Build configuration list for PBXNativeTarget "KeyPopper Catcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E014BB26C7749A00A432BD /* Debug */,
+				15E014BC26C7749A00A432BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

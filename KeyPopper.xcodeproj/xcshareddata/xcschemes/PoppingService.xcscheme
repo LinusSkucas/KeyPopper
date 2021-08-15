@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1587085026B89CC50082DB8F"
-               BuildableName = "KeyPopper PrefPane.prefPane"
-               BlueprintName = "KeyPopper PrefPane"
+               BlueprintIdentifier = "151BCDA626C86FBF00F1EA89"
+               BuildableName = "PoppingService"
+               BlueprintName = "PoppingService"
                ReferencedContainer = "container:KeyPopper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,15 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <PostActions>
-         <ExecutionAction
-            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-            <ActionContent
-               title = "Run Script"
-               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;killall &quot;System Preferences&quot;&#10;">
-            </ActionContent>
-         </ExecutionAction>
-      </PostActions>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "151BCDA626C86FBF00F1EA89"
+            BuildableName = "PoppingService"
+            BlueprintName = "PoppingService"
+            ReferencedContainer = "container:KeyPopper.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -56,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1587085026B89CC50082DB8F"
-            BuildableName = "KeyPopper PrefPane.prefPane"
-            BlueprintName = "KeyPopper PrefPane"
+            BlueprintIdentifier = "151BCDA626C86FBF00F1EA89"
+            BuildableName = "PoppingService"
+            BlueprintName = "PoppingService"
             ReferencedContainer = "container:KeyPopper.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeyPopper</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+            <dict>
+                <key>comments</key>
+                <string>Localizable index words</string>
+                <key>index</key>
+                <string>keyboard, keypopper, popper, enable sounds, sounds, sound, keylogger, keys, key, logger, key logger, popping, mooing, frog, froggying, frog thingying, enable</string>
+                <key>title</key>
+                <string>KeyPopper</string>
+            </dict>
+                <key>comments</key>
+                <string>Localizable index words</string>
+                <key>index</key>
+                <string>keyboard, keypopper, popper, enable sounds, sounds, sound, keylogger, keys, key, logger, key logger, enable</string>
+                <key>title</key>
+                <string>Enable KeyPopper Sounds</string>
+            </dict>
+            </dict>
+                <key>comments</key>
+                <string>Localizable index words</string>
+                <key>index</key>
+                <string>keyboard, keypopper, popper, enable sounds, sounds, sound, keylogger, keys, key, logger, key logger, popping, mooing, frog, froggying, frog thingying, enable</string>
+                <key>title</key>
+                <string>Change KeyPopper Sound</string>
+            </dict>
+		</array>
+	</dict>
+</dict>
+</plist>
