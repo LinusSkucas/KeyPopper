@@ -15,3 +15,7 @@ It comes packaged as a preference pane, but what’s really ~trojaned~ in there 
 
 This was a bunch of fun learning about low level macOS stuff. Anyways, you can see the source code over on GitHub: https://github.com/LinusS1/KeyPopper
 And you can install it using the DMG attached here, or on GitHub releases, and who knows your boss might give you a raise…
+
+
+![KeyPopper Diagram.pdf](https://github.com/LinusS1/KeyPopper/files/7080549/KeyPopper.Diagram.pdf)
+
